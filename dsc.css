@@ -1,11 +1,14 @@
 #myVideo{
+    min-height: 100%;
     min-width: 100%;
-    max-width: 100%;
     position: fixed;
     right: 0px;
     bottom: 0px;
+    top: 0px;
+    left: 0px;
     z-index: -1;
     top: 0px;
+    
 }
 body{
     /* background-color: black; */
@@ -18,8 +21,9 @@ body{
     display: flex;
    justify-content: space-between;
    background-color: rgb(0, 0, 0 , 0.5);
- padding: 15px 86px;
+    padding: 15px 86px;
  /* justify-content: space-around; */
+ 
 }
 #navbar ul{
     width: 450px;
@@ -183,13 +187,14 @@ h3{
       border-radius: 50px;
       font-family: 'Barlow Semi Condensed', sans-serif;
       font-size: 130%;
+      align-items: center;
   }
   .mainContainer{
       width:650px;
       height:600px;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: space-around;
       text-align: center;
       align-items: center;
       background-color: rgb(0, 0, 0, 0.5);
